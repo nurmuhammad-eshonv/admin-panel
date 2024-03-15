@@ -1,0 +1,317 @@
+body {
+  background-color: #f7f8f5;
+  display: flex;
+  font-family: sans-serif;
+}
+
+img:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+aside {
+  width: 144px;
+  height: 900px;
+  border: solid white 1px;
+  background-color: white;
+}
+
+.side__card1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 105px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.side__card1 :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.card1__p {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #ababab;
+}
+
+.card1- {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card1-2 {
+  margin-top: 170px;
+}
+
+.card1 {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.card1__p span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.card1__input {
+  width: 465px;
+  height: 17px;
+  margin-top: 26px;
+  margin-left: 30px;
+  border: solid #ababab 1px;
+  border-radius: 20px;
+  padding: 15px 40px 15px 70px;
+}
+
+.search-img {
+  position: absolute;
+  margin-left: -540px;
+  margin-top: 44px;
+}
+
+.sliders-img {
+  position: absolute;
+  margin-left: -70px;
+  margin-top: 44px;
+}
+
+.card2 {
+  margin-top: 20px;
+  width: 445px;
+  height: 46px;
+  margin-left: 32px;
+}
+
+.card2-section1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+.card2-section1 :hover {
+  border-bottom: solid blue 3px;
+  cursor: pointer;
+}
+.card2-section1 :hover .card2-pi {
+  background-color: red;
+}
+
+.card2-pi {
+  width: 22px;
+  height: 22px;
+  background-color: #ababab;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.card2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.card2 :hover .card2-pi {
+  background-color: #ff6f03;
+}
+
+.desc {
+  margin-left: 32px;
+}
+
+.main-card {
+  height: 600px;
+  width: 1227px;
+}
+
+.box {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  border: solid #ababab 1px;
+  background-color: #f7f8f5;
+}
+
+.main__p {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #ababab;
+}
+.main__p :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.section1__card {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  margin-left: 35px;
+}
+
+.section1__card {
+  height: 38px;
+}
+
+.Product {
+  margin-left: 20px;
+}
+
+.main-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section1__card2 {
+  display: flex;
+  align-items: center;
+  gap: 66px;
+  width: 600px;
+  height: 38px;
+  margin-right: 32px;
+}
+
+.main-card {
+  margin-top: 15px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  border: solid #ababab 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding-left: 25px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 25px;
+  background-color: white;
+}
+
+.plus {
+  width: 168px;
+  padding: 10 25 10 25;
+  border-radius: 15;
+  background-color: blue;
+  color: white;
+}
+
+.select {
+  width: 88px;
+  height: 26px;
+  border-radius: 10px;
+  border: solid #ababab 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: blue;
+}
+
+.Complate {
+  width: 76px;
+  height: 24px;
+  padding: px 15px 5px 15px;
+  border-radius: 10px;
+  color: #4fac16;
+  border-color: #dcfdd4;
+  border: none;
+}
+
+.panding {
+  color: #ac9d16;
+  background: #fafdd4;
+  padding-left: 14px;
+}
+
+.rejected {
+  color: red;
+  background: #fdd4d4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.black-desc {
+  color: #1d1929;
+  font-family: sans-serif;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
